@@ -10,9 +10,9 @@ def banner(title, author):
     print("=" * banner_length)
     print("")
 
-banner("BANNER", "Amber")
-
-name = input("What is your name? ")
-title = input("What is the title? ")
-print("")
-banner(title, name)
+if __name__ == "__main__":
+    banner("BANNER", "Amber")
+    name = input("What is your name? ")
+    title = input("What is your title? ")
+    print("")
+    banner(title, name)
