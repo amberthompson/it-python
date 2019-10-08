@@ -7,7 +7,7 @@ def main():
     run_event_loop()
 
 def run_event_loop():
-    filename = "default"
+    filename = input("What file would you like to load? ")
     journal_data = journal.load(filename)#[]
 
     while True:
